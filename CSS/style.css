@@ -1,4 +1,5 @@
 /*  */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&display=swap');
 *,
 *::after,
 *::before{
@@ -32,3 +33,131 @@ a:hover {
     background-color: 	#A9A9A9;
 }
 
+body {
+    display: grid;
+}
+
+body {
+    grid-template-rows: auto minmax(100%, 100dvh) auto;
+}
+
+[landing]{
+    height: 100dvh;
+    background-image: url("https://chelsea-julie.github.io/all-images/images/FTH_lifestyle-37.jpg"); 
+    background-size: cover;
+    & h1{
+        text-align: start;
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        & span{
+            font-style: italic;
+        }
+    }
+
+    [landing-info]{
+        height: 70%;
+        background-color: #ffffff3c;
+        
+        & :is(h1){
+            color: black;
+            font-size: 5rem;
+        }
+        & p{
+            color: black;
+            font-size: 3rem;
+        }
+
+    }
+}
+
+footer{
+    margin-top: 35rem;
+    
+}
+
+:is(h2, footer p) {
+    text-align: center;
+}
+
+[homefooter]{
+    background-color: #cececebe;
+    .bottomNav{
+        padding-top: 2rem;
+        padding-inline: 3rem;
+        p {
+            text-align: start;
+
+        }
+
+        & .contact-links{
+            & a{
+                padding-right: 2rem;
+            }
+        }
+    }
+}
+
+img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+[recentProducts]{
+    margin-top: 5rem;
+}
+
+h2{
+    font-family: "Italiana", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 60px;
+}
+
+[discreption]{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    & h2{
+        text-align: start;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    & .row{
+        background-color: #cececebe;
+        padding: 3rem;
+    }
+
+}
+
+[discreption-image]{
+    display: flex;
+    justify-content: center;
+    img[alt="landing"]{
+        width: 35rem;
+    }
+}
+
+[discreption-info]{
+    padding-inline: 10rem;
+    & p{
+        font-size: 1.5rem;
+    }
+}
+
+[banner]{
+    div[first]{
+        border-right: solid 1px black !important;;
+        height: 5rem;
+        
+    }
+    & h2{
+        padding-top: 1.5rem;
+    }
+}
+
+[products]{
+    row-gap: 10rem;
+}
+          
