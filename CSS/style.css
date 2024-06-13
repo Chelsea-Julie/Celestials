@@ -1,1 +1,34 @@
 /*  */
+*,
+*::after,
+*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar {
+
+    background-color: #686868 !important;
+    
+    & img[alt='logo']{
+        width: 5rem;
+    }
+    & .nav-link{
+        color: white !important;
+        
+    }
+}
+
+a:hover {
+    background-color: 	#A9A9A9;
+  }
+
+.active {
+    background-color: 	#A9A9A9;
+}
+
