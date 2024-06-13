@@ -76,6 +76,11 @@ footer{
     
 }
 
+[aboutFooter]{
+    margin-top: 0rem;
+
+}
+
 :is(h2, footer p) {
     text-align: center;
 }
@@ -160,4 +165,49 @@ h2{
 [products]{
     row-gap: 10rem;
 }
-          
+         
+.about {
+    height: 100dvh;
+    & video {
+        
+        width: 100% ;
+    }
+    
+    
+}
+
+h2.about{
+    margin-top: 100rem;
+}
+
+[about]{
+    height: 100dvh;
+    justify-content: center;
+    & h1{
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      
+    }
+
+    [about-info]{
+        height: 70%;
+        width: 80%;
+        background-color: #ffffff3c;
+        
+        & :is(h1){
+            color: black;
+            font-size: 5rem;
+            text-align: center;
+        }
+        & p{
+            color: black;
+            font-size: 2rem;
+        }
+
+    }
+}
+
+[about]{
+    margin-top: -55rem;
+}
