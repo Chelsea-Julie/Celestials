@@ -45,23 +45,86 @@
           </div>
         </div>
       </nav>
-
-        <h2 class="welcome">
-            Admin<i class="bi bi-pen"></i>
+      <main>
+        <div class="row justify-content-center">
+          <h2 class="welcome">
+          Admin here<i class="bi bi-pen"></i>
         </h2>
+          <table id="cart" class="table table-hover table-condensed" style="width: 70%;">
+            <thead>
+              <tr>
+                <th colspan="3">Item</th>
+                <th colspan="3">Product Name</th>
+                <th>Catergory </th>
+                <th>Description</th>
+                <th>price</th>
+                <th colspan="2">Management</th>
+              </tr>
+            </thead>
+            <tbody table>
+              
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4"><button  type="button" class="btn btn-warning" addNewProduct><i class="fa fa-angle-left" ></i> Continue Shopping</button></td>
+                <!-- <td colspan="2" class="hidden-xs"></td>
+                <td class="hidden-xs text-center" grandTotal><strong>Total $ 0</strong></td>
+                <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td> -->
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <!-- add model content -->
+        <div modal>
+          <dialog class="border border-0" editModal>
+            <button autofocus>X</button>
+            <form action="">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" productName>
+              <label for="price">Price</label>
+              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" amount>
+              <label for="exampleFormControlTextarea1">Desrciption</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" description></textarea>
+              <div class="row" btns>
+                
+                <button type="button" id=0 submit-edit >Add</button>
+                <button type="reset">Reset</button>
+                
+              </div>
+            </form>
+          </dialog>
+        </div>
 
+        <div modal>
+          <dialog class="border border-0" addModal>
+            <button class="autofocus" type="button" autofocus>X</button>
+            <form action="">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" addProductName>
+              <label for="name">Catergory</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Catergory" addCatergory>
+              <label for="price">Price</label>
+              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Price" addAmount>
+              <label for="price">Image</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Price" addImgurl>
+              <label for="exampleFormControlTextarea1">Desrciption</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" addDescription></textarea>
+              <div class="row" btns>
+                <button type="button" id=0 submit-addProduct >Add</button>
+                <button type="reset">Reset</button>
+              </div>
+            </form>
+          </dialog>
+        </div>
 
-
-
-
-
-
+      </main>
 
       <footer class="container-fluid">
         <div class="row">
             <p class="lead">Copyright &copy; <span currentYear></span></p>
         </div>
       </footer>
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="../script/admin.js"></script>
 </body>
