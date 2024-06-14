@@ -104,7 +104,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
           {
             id: 13,
             productName: "four clover ring",
-            catergory: "ring",
+            catergory: "ring", 
             description: "a silver ring with four clover",
             amount: 349.00,
             img_url: "https://chelsea-julie.github.io/all-images/images/cloverring.jpg"
@@ -116,14 +116,6 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             description: "a silver cross over open ended ring",
             amount: 499.00,
             img_url: "https://chelsea-julie.github.io/all-images/images/crossring.jpg"
-          },
-          {
-            id: 15,
-            productName: "Multi Layer Ring",
-            catergory: "ring",
-            description: "  a silver ring with 3 layers ",
-            amount: 499.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/LayerRing.jpg"
           },
           {
             id: 16,
