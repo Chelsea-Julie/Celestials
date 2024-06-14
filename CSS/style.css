@@ -1,5 +1,6 @@
 /*  */
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 *,
 *::after,
 *::before{
@@ -20,12 +21,14 @@
         width: 5rem;
     }
     & .nav-link{
+        transition: all 0.4s;
         color: white !important;
         
     }
 }
 
 a:hover {
+    transform: scale(1.2);
     background-color: 	#A9A9A9;
   }
 
@@ -161,11 +164,7 @@ h2{
         padding-top: 1.5rem;
     }
 }
-
-[products]{
-    row-gap: 10rem;
-}
-         
+       
 .about {
     height: 100dvh;
     & video {
@@ -211,3 +210,60 @@ h2.about{
 [about]{
     margin-top: -55rem;
 }
+
+[products]{
+    row-gap: 10rem;
+}
+
+.buttons{
+    display: grid;
+    align-self: center;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    & [showmore]{
+        color: white;
+    }
+}
+
+    /* Styling for drop down. I got this styling from codepen and changed to fit my product page.*/ 
+    @arrowColor: #ffcc00;
+    @arrow: escape('@{arrowColor}');
+    
+    select {  
+      background-color:#a5a5a5;
+      background-position: right 10px center;
+      background-repeat: no-repeat;
+      background-size: auto 50%;
+      border-radius: 2px;
+      border: none;
+      color: #ffffff;
+      padding: 10px 30px 10px 10px;
+      
+      outline: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      display:block;
+      &::-ms-expand { display: none };
+    }
+    
+    @-moz-document url-prefix() {
+      select {
+        color: rgba(0,0,0,0);
+        text-shadow: 0 0 0 #ffffff;
+      }
+    }
+    [selectcon]{
+        display: flex;
+        justify-content: end;
+        & select{
+            height: 3rem;
+        }
+    }
+
+    [filter]{
+        width: 80%;
+    }
