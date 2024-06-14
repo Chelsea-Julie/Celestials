@@ -10,7 +10,6 @@ let products = JSON.parse(
 
 function display(){
     try{ 
-      jewelery.innerHTML = ``
         products.slice(0,8).forEach(product => {
           jewelery.innerHTML += `
             <div class="card" style="width:18rem;">
@@ -65,18 +64,8 @@ function displayGen(args){
   }
 }
 
-jewelery.innerHTML = `
-<div class="spinner-border" role="status">
-<span class="sr-only"> </span>
-</div>
-`
 
-setTimeout(() => {
-  display()
-},
-  2000
-)
-
+display()
 
 
 let cart = JSON.parse(localStorage.getItem("cart")) ? JSON.parse (localStorage.getItem("cart") ) 
@@ -154,8 +143,8 @@ document.querySelector("[select]").addEventListener("change",  ()=>{
   products.forEach((product) => {
     if (product.catergory.toLowerCase() == document.querySelector("[select]").value) {
         stem.push(product);
-    } else if (document.querySelector("[select]").value == "empty") {
-      jewelery.innerHTML = ''
+        return product;
+    } else {
       stem.push(product)
     }
   })
