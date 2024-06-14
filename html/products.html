@@ -44,16 +44,17 @@
              
           </div>
         </div>
-      </nav>
+    </nav>
 
-      <main class="container-fluid">
+    <main class="container-fluid">
         <h2 class="display-2">
             Products <i class="bi bi-bag"></i>
         </h2>
 
-        <div class="row justify-content-end me-5 pb-5">
-            <div class="row pt-5" filter>
-              <div class="row col-lg-3">
+        <div class="row pb-5">
+
+            <div class="row pt-5 " filter>
+              <div class="row col-3 justify-content-sm-center" >
                 <div class="col-sm-12 col-md-9 col-lg-9">
                   <input class="form-control" type="text" placeholder="Search" >
                 </div>
@@ -68,8 +69,9 @@
               <select select>
                 <option value="empty">Filter by Catergory</option>
                 <option value="necklace">Necklace</option>
-                <option value="earing">Earing</option>
-                <option value="bracelate">Bracelate</option>
+                <option value="earrings">Earing</option>
+                <option value="bracelet">Bracelate</option>
+                <option value="ring">Ring</option>
               </select>
             </div>
           </div>
@@ -78,38 +80,12 @@
         
 
         <section class="display">
-          <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-2">
-              <form>
-                <h4>Filter By Catergory</h4>
-                <input type="radio" id="necklace" name="catergory" value="necklace">
-                <label for="necklace">Necklace</label><br>
-                <input type="radio" id="earing" name="catergory" value="earing">
-                <label for="earing">Earings</label><br>
-                <input type="radio" id="bracelate" name="catergory" value="bracelates">
-                <label for="bracelates">Bracelates</label><br>
-                <input type="radio" id="rings" name="catergory" value="rings">
-                <label for="rings">Rings</label>
 
-                <hr>
-
-                <h4>Filter By Price</h4>
-                <input type="radio" id="low" name="price" value="low">
-                <label for="low">Low</label><br>
-                <input type="radio" id="medium" name="price" value="medium">
-                <label for="medium">Medium</label><br>
-                <input type="radio" id="high" name="price" value="high">
-                <label for="high">High</label><br>
-                <input type="radio" id="all" name="price" value="all">
-                <label for="all">All</label>
-              </form>
-
-            </div>
-
-            <div class="col-sm-12 col-md-8 col-lg-10">
+            <div class="col-sm-12 col-md-12 col-lg-12" >
 
               <div class="row gap-3 justify-content-evenly " products>
               </div>
+              
               <div class="show">
                 <input class="btn bg-dark" type="button" value="Show More" showmore> 
               </div>
@@ -117,13 +93,13 @@
           </div>
           
         </section>
-      </main>
+    </main>
 
-      <footer class="container-fluid">
+    <footer class="container-fluid">
         <div class="row">
             <p class="lead">Copyright &copy; <span currentYear></span></p>
         </div>
-      </footer>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="../script/product.js"></script>
