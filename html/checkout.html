@@ -44,13 +44,63 @@
              
           </div>
         </div>
-      </nav>
+    </nav>
 
-      <h2 class="welcome">
-        Checkout<i class="bi bi-cart2"></i>
-      </h2>
-
-
+      <main>
+          <h2 class="welcome">
+            Checkout<i class="bi bi-cart2"></i>
+          </h2>
+    
+          <div class="row" orders>
+            <div class="col-8">
+              <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+              <div class="container">
+                
+                <table id="cart" class="table table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th style="width:50%">Product</th>
+                      <th style="width:10%">Price</th>
+                      <th style="width:8%">Quantity</th>
+                      <th style="width:22%" class="text-center">Subtotal</th>
+                      <th style="width:10%"></th>
+                    </tr>
+                  </thead>
+                  <tbody table>
+                    
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+                      <td colspan="2" class="hidden-xs"></td>
+                      <td class="hidden-xs text-center" grandTotal><strong>Total $ 0</strong></td>
+                      <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+    
+            <div class="col-4">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Order Summary</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-6">Shipping</div>
+                    <div class="col-xs-6 text-right">Free</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-6">Total</div>
+                    <div class="col-xs-6 text-right grandTotal">$ 0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+      </main>
 
 
       <footer class="container-fluid">
