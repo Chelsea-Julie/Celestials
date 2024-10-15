@@ -15,7 +15,7 @@
 
 .navbar {
 
-    background-color: #686868 !important;
+    background-color: #9f9d9d !important;
     
     & img[alt='logo']{
         width: 5rem;
@@ -46,7 +46,7 @@ body {
 
 [landing]{
     height: 100dvh;
-    background-image: url("https://chelsea-julie.github.io/all-images/images/FTH_lifestyle-37.jpg"); 
+    background-image: url("https://chelsea-julie.github.io/all-images/images/Celestials/FTH_lifestyle-37.jpg"); 
     background-size: cover;
     & h1{
         text-align: start;

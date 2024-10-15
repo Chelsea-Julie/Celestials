@@ -10,7 +10,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "necklace",
             description: "Sterling Silver Chain Necklace with pearl",
             amount: 295.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/delicate-pearl-.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/delicate-pearl-.jpg"
           },
           {
             id: 2,
@@ -18,7 +18,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "necklace",
             description: "Aquarmarine Germstone Necklace color blue",
             amount: 350.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/aquamarine.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/aquamarine.jpg"
             
           },
           {
@@ -27,7 +27,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "necklace",
             description: "amethest gemstone necklace color purple",
             amount: 350.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/amethest_gemstone_necklace.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/amethest_gemstone_necklace.jpg"
           },
           {
             id: 4,
@@ -35,7 +35,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "neckclace",
             description: "a silver arrow made from cubic zirconia",
             amount: 350.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/arrownecklace.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/arrownecklace.jpg"
           },
           {
             id: 5,
@@ -43,7 +43,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "neckclace",
             description: "crystal quarts gemstone clear in color",
             amount: 350.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/crystalnecklace.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/crystalnecklace.jpg"
           }, 
           {
             id: 6,
@@ -51,7 +51,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "bracelet",
             description: "Sterlin Silver bracelet",
             amount: 895.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/avabracelet.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/avabracelet.jpg"
           }, 
           {
             id: 7,
@@ -59,7 +59,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "bracelet",
             description: "fresh water pearl bracelet that has stretch",
             amount: 295.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/pearlbracelet.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/pearlbracelet.jpg"
           }, 
           {
             id: 8,
@@ -67,7 +67,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "bracelets",
             description: "Sterlin Silver bracelet with four circles on it ",
             amount: 325.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/circlebracelet.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/circlebracelet.jpg"
           }, 
           {
             id: 9,
@@ -75,7 +75,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "bracelet",
             description: "Sterlin Silver bracelet with four disks on it ",
             amount: 295.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/diskbracelet.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/diskbracelet.jpg"
           },
           {
             id: 10,
@@ -83,7 +83,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "bracelet",
             description: "Sterlin Silver bracelet with Circle on it",
             amount: 295.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/circlebracele.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/circlebracele.jpg"
           },
           {
             id: 11,
@@ -91,7 +91,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "ring",
             description: "a silver ring with an hearts around it ",
             amount: 349.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/heartring.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/heartring.jpg"
           },
           {
             id: 12,
@@ -99,7 +99,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "ring",
             description: "a silver ring with a branch on it",
             amount: 399.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/marquisedetail.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/marquisedetail.jpg"
           },
           {
             id: 13,
@@ -107,7 +107,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "ring", 
             description: "a silver ring with four clover",
             amount: 349.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/cloverring.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/cloverring.jpg"
           },
           {
             id: 14,
@@ -115,7 +115,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "ring",
             description: "a silver cross over open ended ring",
             amount: 499.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/crossring.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/crossring.jpg"
           },
           {
             id: 16,
@@ -123,7 +123,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "earrings",
             description: "silver hoop earrings ",
             amount: 250.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/hoopearrings.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/hoopearrings.jpg"
           },
           {
             id: 17,
@@ -131,7 +131,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "earrings",
             description: " silver flower studs with cubic ziconia color clear",
             amount: 215.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/flowerstuds.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/flowerstuds.jpg"
           },
           {
             id: 18,
@@ -139,7 +139,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "earrings",
             description: "drop earrings with cubic zirconia color clear",
             amount: 345.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/dropearrings.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/dropearrings.jpg"
           },
           {
             id: 19,
@@ -147,7 +147,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "earrings",
             description: "silver french hook earrings with crystal quartz color clear",
             amount: 395.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/hookearrings.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/hookearrings.jpg"
           },
           {
             id: 20,
@@ -155,7 +155,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "earrings",
             description: "silver threader earrings",
             amount: 250.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/threaderearrings.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/threaderearrings.jpg"
           },
           {
             id: 21,
@@ -163,7 +163,7 @@ let products = JSON.parse(localStorage.getItem("jewelery")) ? JSON.parse (localS
             catergory: "earrings",
             description: "sliver hoop earrings with cubic zirconia",
             amount: 220.00,
-            img_url: "https://chelsea-julie.github.io/all-images/images/earrings.jpg"
+            img_url: "https://chelsea-julie.github.io/all-images/images/Celestials/earrings.jpg"
           },
         
         ])
